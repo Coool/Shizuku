@@ -2,7 +2,7 @@
 <resources>
     <string name="home_status_service_is_running">%1$s rulează</string>
     <string name="home_status_service_not_running">%1$s nu rulează</string>
-    <string name="home_status_service_version_update">Versiune %2$s, %1$s&lt;br&gt;Pornește din nou pentru a actualiza la versiunea %3$s</string>
+    <string name="home_status_service_version_update"><![CDATA[Versiune %2$s, %1$s<br>Pornește din nou pentru a actualiza la versiunea %3$s]]></string>
     <string name="home_adb_title">Începe prin a te conecta la un computer</string>
     <string name="home_adb_button_view_help">Citește ajutorul</string>
     <string name="home_adb_button_view_command">Vizualizare comandă</string>
@@ -10,7 +10,7 @@
     <string name="home_adb_dialog_view_command_copy_button">Copiere</string>
     <string name="home_adb_dialog_view_command_button_send">Trimitere</string>
     <string name="home_wireless_adb_title">Pornește prin depanare fără fir</string>
-    <string name="home_wireless_adb_description_pre_11">Înainte de Android 11, este necesară conectarea la un computer pentru a activa depanarea fără fir.</string>
+    <string name="home_wireless_adb_description_pre_11"><![CDATA[Înainte de Android 11, este necesară conectarea la un computer pentru a activa depanarea fără fir.]]></string>
     <string name="home_wireless_adb_view_guide_button">Ghidul pas cu pas</string>
     <string name="dialog_adb_discovery">Se caută serviciul de depanare fără fir</string>
     <string name="dialog_adb_port">Port</string>
@@ -81,7 +81,7 @@
     <string name="notification_adb_pairing_retry">Încearcă din nou</string>
     <string name="permission_label">accesare Shizuku</string>
     <string name="permission_description">Permite aplicației să folosească Shizuku.</string>
-    <string name="permission_warning_template">Permiți <b>%1$s</b> să %2$s\?</string>
+    <string name="permission_warning_template"><![CDATA[Permiți <b>%1$s</b> să %2$s?]]></string>
     <string name="grant_dialog_button_allow_always">Permite tot timpul</string>
     <string name="grant_dialog_button_deny">Refuz</string>
     <string name="starter">Începător</string>
@@ -119,7 +119,10 @@
 \nFuncția de export folosește SAF (Storage Access Framework). A fost raportat că MIUI întrerupe funcțiile SAF. Dacă utilizezi MIUI, poate fi necesar să extragi fișierul din apk-ul lui Shizuku sau să-l descarci de pe GitHub.</string>
     <string name="terminal_tutorial_3">În cele din urmă, mută fișierele într-un loc unde aplicația de terminal le poate accesa, vei putea folosi %1$s pentru a rula comenzi prin Shizuku.</string>
     <string name="terminal_tutorial_3_description">Câteva sfaturi: acordă permisiunea de execuție pentru %1$s și adaugă la %2$s, vei putea folosi %1$s direct.</string>
-    <string name="rish_description">Cu %1$s, în orice aplicație de terminal, vei putea conecta și interacționa cu shell-urile rulate de Shizuku. &lt;p&gt;Despre utilizarea detaliată %1$s, atinge pentru a vizualiza documentul.</string>
+    <string name="rish_description"><![CDATA[
+Cu %1$s, în orice aplicație de terminal, vei putea conecta și interacționa cu shell-urile rulate de Shizuku.
+<p>Despre utilizarea detaliată %1$s, atinge pentru a vizualiza documentul.
+    ]]></string>
     <string name="settings_translation_contributors">Colaboratori de traduceri</string>
     <string name="settings_start_on_boot_summary">Pentru dispozitivele root-ate, Shizuku poate porni automat la pornire</string>
     <string name="notification_channel_adb_pairing">Asociere prin depanare fără fir</string>
