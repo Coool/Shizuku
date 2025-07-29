@@ -10,7 +10,7 @@
     <string name="home_adb_description">Para dispositivos sin acceso root, se necesita ADB para ejecutar Shizuku (requiere conexión a una computadora). Este proceso debe repetirse cada vez que el dispositivo sea reiniciado.Favor <b><a href="%1$s">leer la guía</a></b>.</string>
     <string name="home_adb_button_view_help">Leer ayuda</string>
     <string name="home_adb_button_view_command">Ver comando</string>
-    <string name="home_adb_dialog_view_command_message">"&lt;font face=monospace&gt;%1$s&lt;/font&gt;&lt;br&gt;&lt;br&gt;* Existen  otras consideraciones, por favor confirme que ha leído antes la ayuda."</string>
+    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace&gt;%1$s&lt;/font&gt;&lt;br&gt;&lt;br&gt;* Existen otras consideraciones, por favor confirme que ha leído antes la ayuda.</string>
     <string name="home_adb_dialog_view_command_copy_button">Copiar</string>
     <string name="home_adb_dialog_view_command_button_send">Enviar</string>
     <string name="home_wireless_adb_title">Iniciar vía Depuración inalámbrica</string>
