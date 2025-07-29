@@ -19,7 +19,7 @@
     <string name="starter">Démarreur</string>
     <string name="grant_dialog_button_deny">Refuser</string>
     <string name="grant_dialog_button_allow_always">Autoriser tout le temps</string>
-    <string name="permission_warning_template">Autoriser <b>%1$s</b> à %2$s \?</string>
+    <string name="permission_warning_template"><![CDATA[Autoriser <b>%1$s</b> à %2$s ?]]></string>
     <string name="permission_description">Autorise l\'appli à utiliser Shizuku.</string>
     <string name="permission_label">accéder à Shizuku</string>
     <string name="notification_adb_pairing_retry">Réessayer</string>
@@ -52,7 +52,10 @@
     <string name="settings_user_interface">Apparence</string>
     <string name="settings_language">Langue</string>
     <string name="settings_title">Paramètres</string>
-    <string name="rish_description">Avec %1$s, dans n\'importe quelle appli de terminal, vous pouvez vous connecter et interagir avec le shell lancé par Shizuku. &lt;p&gt;À propos de l\'usage détaillé de %1$s, appuyez pour voir le document.</string>
+    <string name="rish_description"><![CDATA[
+Avec %1$s, dans n'importe quelle appli de terminal, vous pouvez vous connecter et interagir avec le shell lancé par Shizuku.
+<p>À propos de l'usage détaillé de %1$s, appuyez pour voir le document.
+    ]]></string>
     <string name="terminal_tutorial_3_description">Quelques astuces : accordez la permission d\'exécution à %1$s et ajoutez le au %2$s, vous pourrez utiliser %1$s directement.</string>
     <string name="terminal_tutorial_3">Enfin, déplacez les fichiers quelque part où votre appli de terminal a accès, vous pourrez utiliser %1$s pour exécuter des commandes à travers Shizuku.</string>
     <string name="terminal_tutorial_2_description">Par exemple, si vous voulez utiliser Shizuku dans %1$s, vous devriez remplacer %2$s par %3$s (%4$s est le nom de package de %1$s).</string>
@@ -113,7 +116,7 @@
     <string name="home_status_service_is_running">%1$s est en cours de fonctionnement</string>
     <string name="home_status_service_not_running">%1$s est arrêté</string>
     <string name="home_status_service_version">Version %2$s, %1$s</string>
-    <string name="home_status_service_version_update">Version %2$s, %1$s&lt;br&gt;Relancez pour mettre à jour vers la version %3$s</string>
+    <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>Relancez pour mettre à jour vers la version %3$s]]></string>
     <string name="home_adb_title">Démarrer par connection à un ordinateur</string>
     <string name="adb_pairing_tutorial_content_miui_2">Sinon, vous ne pourrez peut-être pas saisir le code d\'association depuis la notification.</string>
     <string name="adb_pairing_tutorial_content_network">Shizuku requiert l\'accès au réseau local. C\'est contrôlé par l\'autorisation réseau.</string>
