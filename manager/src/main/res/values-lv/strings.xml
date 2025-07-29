@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="adb_pair_required">Lūdzu, vispirms veiciet savienošana pārī procedūru.</string>
+    <string name="adb_pairing_requires_multi_window">Lūdzu, vispirms pārejiet uz dalītā ekrāna (vairāku logu) režīmu.</string>
+    <string name="translation_contributors">ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)</string>
+    <string name="home_status_service_version">Versija %2$s, %1$s</string>
+    <string name="home_adb_button_view_command">Skatīt komandu</string>
+    <string name="home_adb_dialog_view_command_copy_button">Kopēt</string>
+    <string name="home_wireless_adb_view_guide_button">Soli pa solim instrukcija</string>
+    <string name="dialog_adb_port">Ports</string>
+    <string name="dialog_adb_invalid_port">Ports – vesels skaitlis diapazonā no 1 līdz 65535.</string>
+    <string name="home_adb_dialog_view_command_button_send">Sūtīt</string>
+    <string name="development_settings">Izstrādātāja iespējas</string>
+    <string name="notification_settings">Paziņojumu iestatījumi</string>
+    <string name="adb_pairing_tutorial_title">Shizuku savienošana pārī ar ierīci</string>
+    <string name="adb_pairing_tutorial_content_enter_pairing_code">Ievadiet kodu paziņojumā, lai pabeigtu savienošana pārī procedūru.</string>
+    <string name="home_root_button_start">Palaist</string>
+    <string name="home_root_button_restart">Palaist pa jaunu</string>
+    <string name="settings_language">Valoda</string>
+    <string name="settings_user_interface">Izskats</string>
+    <string name="action_about">Par</string>
+    <string name="notification_adb_pairing_retry">Mēģināt vēlreiz</string>
+    <string name="settings_translation_summary">Palīdziet iztulkot %s jūsu valodā</string>
+    <string name="adb_pairing_tutorial_content_steps">Dodieties uz \"Izstrādātāja iespējas\" - \"Bezvadu atkļūdošana\". Pieskarieties \"Ierīču savienošana pārī, izmantojot kodu\" un jūs redzēsiet sešciparu kodu.</string>
+    <string name="settings_title">Iestatījumi</string>
+    <string name="terminal_export_files">Izgūt datnes</string>
+</resources>
