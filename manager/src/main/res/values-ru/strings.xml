@@ -49,15 +49,11 @@
     <string name="home_root_title">Запуск (для устройств с root правами)</string>
     <string name="development_settings">Параметры разработчика</string>
     <string name="adb_pair_required">Пожалуйста, сперва пройдите процедуру сопряжения.</string>
-    <string name="adb_error_key_store">Не удалось сгенерировать ключ для отладки по Wi-Fi.
-\nВозможно, что механизм KeyStore у данного устройства нерабочий.</string>
+    <string name="adb_error_key_store">Не удалось сгенерировать ключ для отладки по Wi-Fi.\nВозможно, что механизм KeyStore у данного устройства нерабочий.</string>
     <string name="adb_pairing_requires_multi_window_reason">Системе нужно постоянно видеть диалоговое окно сопряжения, и многооконный режим – это единственный способ вывести на экран и это приложение, и системное окно одновременно.</string>
     <string name="adb_pairing_requires_multi_window">Пожалуйста, сначала активируйте режим разделения экрана (многооконный режим).</string>
-    <string name="dialog_adb_pairing_message">Пожалуйста, для подключения выполните следующие шаги: «Для разработчиков» – «Отладка по Wi-Fi» – «Подключиться к устройству, используя код».
-\n
-\nПосле начала процесса вы сможете ввести код подключения.</string>
-    <string name="dialog_wireless_adb_not_enabled">Отладка по Wi-Fi не включена.
-\nВнимание: на системах старше Android 11 для включения этой отладки необходимо соединение с компьютером.</string>
+    <string name="dialog_adb_pairing_message">Пожалуйста, для подключения выполните следующие шаги: «Для разработчиков» – «Отладка по Wi-Fi» – «Подключиться к устройству, используя код».\n\nПосле начала процесса вы сможете ввести код подключения.</string>
+    <string name="dialog_wireless_adb_not_enabled">Отладка по Wi-Fi не включена.\nВнимание: на системах старше Android 11 для включения этой отладки необходимо соединение с компьютером.</string>
     <string name="cannot_connect_port">Не удается подключиться к службе отладки по Wi-Fi.</string>
     <string name="paring_code_is_wrong">Неверный код сопряжения.</string>
     <string name="dialog_adb_pairing_paring_code">Код сопряжения</string>
@@ -66,9 +62,7 @@
     <string name="adb_pairing">Сопряжение</string>
     <string name="dialog_adb_invalid_port">Порт – это целое число в диапазоне от 1 до 65535.</string>
     <string name="dialog_adb_port">Порт</string>
-    <string name="dialog_adb_discovery_message">Пожалуйста, включите пункт «Отладка по Wi-Fi» в меню «Для разработчиков». «Отладка по Wi-Fi» автоматически отключается при изменении сети.
-\n
-\nВнимание: не отключайте пункт «Для разработчиков» или «Отладка по USB», иначе Shizuku остановит работу.</string>
+    <string name="dialog_adb_discovery_message">Пожалуйста, включите пункт «Отладка по Wi-Fi» в меню «Для разработчиков». «Отладка по Wi-Fi» автоматически отключается при изменении сети.\n\nВнимание: не отключайте пункт «Для разработчиков» или «Отладка по USB», иначе Shizuku остановит работу.</string>
     <string name="dialog_adb_discovery">Ожидание службы отладки по Wi-Fi</string>
     <string name="home_wireless_adb_title">Запуск через отладку по Wi-Fi</string>
     <string name="home_adb_dialog_view_command_button_send">Отправить</string>
@@ -87,7 +81,7 @@
     <string name="settings_start_on_boot">Автозапуск (с root правами)</string>
     <string name="grant_dialog_button_allow_always">Разрешить всегда</string>
     <string name="grant_dialog_button_deny">Запретить</string>
-    <string name="permission_warning_template">Разрешить <b>%1$s</b> следующее: %2$s\?</string>
+    <string name="permission_warning_template"><![CDATA[Разрешить <b>%1$s</b> следующее: %2$s?]]></string>
     <string name="home_root_description_sui">Если вы пользуетесь Magisk, можете попробовать %1$s. Для пользователей с root правами он в конечном итоге заменит Shizuku. Обратите внимание, что в уже вышедшие приложения должны внести небольшие изменения, чтобы они заработали с %2$s.</string>
     <string name="permission_description">Разрешить приложению использовать Shizuku.</string>
     <string name="terminal_tutorial_3_description">Небольшой совет: выдайте %1$s права на выполнение и пропишите в %2$s, чтобы обращаться к %1$s напрямую.</string>
@@ -106,14 +100,17 @@
     <string name="adb_pairing_tutorial_content_steps">Перейдите в «Параметры разработчика» – «Отладка по Wi-Fi». Нажмите на «Сопряжение устройства с помощью кода сопряжения» и увидите шестизначный код.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Введите код в уведомление для завершения процедуры сопряжения.</string>
     <string name="adb_pairing_tutorial_content_notification">Уведомление от Shizuku поможет завершить процедуру сопряжения.</string>
-    <string name="rish_description">Посредством %1$s из любого приложения-терминала можно подключаться и взаимодействовать с shell, запущенной Shizuku. &lt;p&gt;Нажмите здесь для просмотра инструкции по работе с %1$s.</string>
+    <string name="rish_description"><![CDATA[
+Посредством %1$s из любого приложения-терминала можно подключаться и взаимодействовать с shell, запущенной Shizuku.
+<p>Нажмите здесь для просмотра инструкции по работе с %1$s.
+    ]]></string>
     <string name="notification_adb_pairing_working_title">Выполняется сопряжение</string>
     <string name="notification_adb_pairing_succeed_title">Сопряжение выполнено</string>
     <string name="notification_adb_pairing_succeed_text">Теперь можете запустить службу Shizuku.</string>
     <string name="notification_adb_pairing_failed_title">Не удалось выполнить сопряжение</string>
     <string name="notification_adb_pairing_retry">Повторить попытку</string>
     <string name="adb_pairing_tutorial_title">Сопряжение Shizuku с вашим устройством</string>
-    <string name="home_wireless_adb_description_pre_11">"Для отладки по Wi-Fi в Android до 11 версии  потребуется соединения с компьютером."</string>
+    <string name="home_wireless_adb_description_pre_11">Для отладки по Wi-Fi в Android до 11 версии потребуется соединения с компьютером.</string>
     <string name="home_wireless_adb_view_guide_button">Пошаговая инструкция</string>
     <string name="notification_settings">Настройки уведомлений</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Процедура сопряжения подразумевает взаимодействие с уведомлением от Shizuku. Для продолжения выдайте Shizuku разрешение на показ уведомлений.</string>
