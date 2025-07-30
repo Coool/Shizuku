@@ -24,4 +24,14 @@
     <string name="adb_pairing_tutorial_content_steps">Dodieties uz \"Izstrādātāja iespējas\" - \"Bezvadu atkļūdošana\". Pieskarieties \"Ierīču savienošana pārī, izmantojot kodu\" un jūs redzēsiet sešciparu kodu.</string>
     <string name="settings_title">Iestatījumi</string>
     <string name="terminal_export_files">Izgūt datnes</string>
+    <string name="paring_code_is_wrong">Nepareizs savienošana pārī kods.</string>
+    <string name="home_status_service_not_running">%1$s nav palaists</string>
+    <string name="adb_pairing_tutorial_content_finish">Atgriezieties Shizuku lietotnē un palaidiet to.</string>
+    <string name="home_terminal_title">Izmantot Shizuku termināļa lietotnēs</string>
+    <string name="notification_service_start_failed">Neizdevās palaist Shizuku pakalpojumu.</string>
+    <string name="notification_service_starting">Palaiž Shizuku pakalpojumu…</string>
+    <string name="settings_start_on_boot">Palaist Android ielādes laikā (ar root piekļuves tiesībām)</string>
+    <string name="notification_adb_pairing_working_title">Notiek savienošana pārī</string>
+    <string name="notification_adb_pairing_input_paring_code">Ievadiet savienošana pārī kodu</string>
+    <string name="dialog_cannot_open_browser_title">Nevar palaist pārlūku</string>
 </resources>
