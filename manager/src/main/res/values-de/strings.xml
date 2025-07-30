@@ -4,7 +4,7 @@
     <string name="home_wireless_adb_title">Über Wireless-Debugging starten</string>
     <string name="home_adb_dialog_view_command_button_send">Senden</string>
     <string name="home_adb_dialog_view_command_copy_button">Kopieren</string>
-    <string name="home_adb_dialog_view_command_message">&lt;font face=monospace&gt;%1$s&lt;/font&gt;&lt;br&gt;&lt;br&gt;* Es gibt noch einige andere Überlegungen, bitte vergewissern, dass Sie zuerst die Hilfe gelesen haben.</string>
+    <string name="home_adb_dialog_view_command_message"><![CDATA[<font face="monospace">%1$s</font><br><br>* Es gibt noch einige andere Überlegungen, bitte vergewissern, dass Sie zuerst die Hilfe gelesen haben.]]></string>
     <string name="home_adb_button_view_command">Befehl anzeigen</string>
     <string name="home_adb_description"><![CDATA[Bei Geräten ohne Root müssen Sie adb verwenden, um Shizuku zu starten (erfordert Computerverbindung). Dieser Vorgang muss bei jedem Neustart des Geräts wiederholt werden. Bitte <b><a href=\"%1$s\">die Hilfe lesen</a></b>.]]></string>
     <string name="home_adb_button_view_help">Hilfe lesen</string>
@@ -95,7 +95,7 @@
     <string name="home_terminal_description">Befehle über Shizuku in Terminal-Apps ausführen, die Sie mögen</string>
     <string name="home_terminal_title">Shizuku in Terminal-Apps verwenden</string>
     <string name="terminal_tutorial_3_description">Einige Tipps: %1$s die Ausführungsberechtigung erteilen und zu %2$s hinzufügen, dann können Sie %1$s direkt verwenden.</string>
-    <string name="home_wireless_adb_description">Unter Android 11 oder höher können Sie Wireless Debugging aktivieren und Shizuku direkt von Ihrem Gerät aus starten, ohne eine Verbindung zu einem Computer herzustellen.&lt;p&gt;Bitte zuerst die Schritt-für-Schritt-Anleitung ansehen.</string>
+    <string name="home_wireless_adb_description"><![CDATA[Unter Android 11 oder höher können Sie Wireless Debugging aktivieren und Shizuku direkt von Ihrem Gerät aus starten, ohne eine Verbindung zu einem Computer herzustellen.<p>Bitte zuerst die Schritt-für-Schritt-Anleitung ansehen.]]></string>
     <string name="notification_adb_pairing_service_found_title">Kopplungsdienst gefunden</string>
     <string name="adb_pairing_tutorial_title">Shizuku mit Ihrem Gerät koppeln</string>
     <string name="adb_pairing_tutorial_content_steps">\"Entwickleroptionen\" - \"Kabelloses Debugging\" wählen. Auf \"Gerät mit Pairing-Code koppeln\", ein sechsstelligen Code ist zusehen.</string>
