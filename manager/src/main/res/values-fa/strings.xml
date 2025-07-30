@@ -62,7 +62,7 @@
     <string name="home_app_management_title">مدیریت برنامه</string>
     <plurals name="home_app_management_authorized_apps_count">
         <item quantity="one"><![CDATA[%d برنامه مجاز]]></item>
-        <item quantity="other"><![CDATA[%d برنامه مجاز]]></item>
+        <item quantity="other"><![CDATA[%d برنامه های مجاز]]></item>
     </plurals>
     <string name="home_app_management_view_authorized_apps"><![CDATA[برای مدیریت برنامه های مجاز ضربه بزنید]]></string>
     <string name="home_app_management_empty">برنامه‌هایی که Shizuku را درخواست کرده یا اعلام کرده‌اند در اینجا نشان داده می‌شوند.</string>
