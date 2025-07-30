@@ -49,7 +49,10 @@
     <string name="settings_user_interface">Görünüş</string>
     <string name="settings_language">Dil</string>
     <string name="settings_title">Parametrlər</string>
-    <string name="rish_description">%1$s ilə istənilən terminal proqramında siz Shizuku tərəfindən hazırlanmış shell-lərə qoşula və onlarla əlaqə saxlaya bilərsiniz. &lt;p&gt;Ətraflı istifadə %1$s haqqında sənədə baxmaq üçün toxunun.</string>
+    <string name="rish_description"><![CDATA[
+%1$s ilə istənilən terminal proqramında siz Shizuku tərəfindən hazırlanmış shell-lərə qoşula və onlarla əlaqə saxlaya bilərsiniz.
+<p>Ətraflı istifadə %1$s haqqında sənədə baxmaq üçün toxunun.
+    ]]></string>
     <string name="terminal_tutorial_3_description">Bəzi məsləhətlər: %1$s-a icra icazəsi verin və onu %2$s-a əlavə edin, siz birbaşa %1$s-dan istifadə edə biləcəksiniz.</string>
     <string name="terminal_tutorial_3">Nəhayət, faylları terminal proqramınızın daxil ola biləcəyi yerə köçürün, Shizuku vasitəsilə əmrləri yerinə yetirmək üçün %1$s-dan istifadə edə biləcəksiniz.</string>
     <string name="terminal_tutorial_2_description">Məsələn, %1$s-da Shizuku-dan istifadə etmək istəyirsinizsə, %2$s-ı %3$s ilə əvəz etməlisiniz (%4$s %1$s paketinin adıdır).</string>
@@ -122,7 +125,7 @@
     <string name="home_adb_button_view_help">Yardım</string>
     <string name="home_adb_description">Root olmayan cihazlarda Shizuku-nu işə salmaq üçün adb-dən istifadə etməlisiniz (kompüter bağlantısı tələb olunur). Cihaz hər dəfə yenidən işə salındıqda bu proses təkrarlanmalıdır. Lütfən, <b><a href="%1$s">yardımı oxuyun</a></b>.</string>
     <string name="home_adb_title">Kompüterə qoşularaq başlayın</string>
-    <string name="home_status_service_version_update">Versiya %2$s, %1$s &lt;br&gt; %3$s Versiyasına güncəlləmək üçün proqramı yenidən başladın</string>
+    <string name="home_status_service_version_update"><![CDATA[Versiya %2$s, %1$s <br> %3$s Versiyasına güncəlləmək üçün proqramı yenidən başladın]]></string>
     <string name="home_status_service_version">Versiya %2$s, %1$s</string>
     <string name="home_status_service_not_running">%1$s davam etmir</string>
     <string name="home_status_service_is_running">%1$s davam edir</string>
